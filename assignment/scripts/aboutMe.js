@@ -33,7 +33,7 @@ if(adventurous === true) {
   console.log('Adventures are great!');
 }
 // if it's not true, console log "How about we stay home?"
-else{
+else {
   console.log('How about we stay home?');
 }
 
@@ -51,13 +51,9 @@ if((luckyNumber === 2)&& (adventurous === true)){
 // if the value of `pets` is greater than the value of `allowedPets`.
 if (pets < allowedPets){
   console.log('I can have more pets');
-}
-
-if(pets === allowedPets){
+} else if(pets === allowedPets){
   console.log('I have enough pets!');
-}
-
-if(pets > allowedPets){
+} else if(pets > allowedPets){
   console.log('Oh no, I have too many pets!');
 }
 // STRETCH GOALS:
